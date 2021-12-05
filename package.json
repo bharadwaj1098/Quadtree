@@ -1,0 +1,23 @@
+{
+  "name": "quadtree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharadwaj1098/quadtree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharadwaj1098/quadtree/issues"
+  },
+  "homepage": "https://bharadwaj1098.github.io/quadtree",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

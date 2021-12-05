@@ -225,7 +225,7 @@ class QuadTree {
 		midpoints.push(lines[6].map((a, i) => (a + lines[7][i]) / 2))
 		let center = midpoints[0].map((a, i) => (a + midpoints[1][i]) / 2)
 		let k = this.check(big_box.root)
-		if (k > 4) {
+		if (k > 3) {
 			//this.draw(midpoints)
 			for (var i = 0; i < midpoints.length; i++) {
 				all_lines.push(midpoints[i]);
